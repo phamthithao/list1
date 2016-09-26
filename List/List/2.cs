@@ -21,7 +21,7 @@ namespace List
         
        public void addfirst(element<T> e)
         {
-            e.Next = head;
+            e.Next = head;                                                                                                                                                         
             this.head = e;
         }
         public List()
